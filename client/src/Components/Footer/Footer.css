@@ -7,35 +7,35 @@
   padding: 2rem 2rem;
   height: 280px;
 }
-.footer_support h2{
-    font-size: 1.1rem;
+.footer_support h2 {
+  font-size: 1.1rem;
 }
-.footer_support p{
-    font-size: 12px;
-    letter-spacing:1px;
-    padding: 5px 0;
-    color: rgb(175, 173, 173);
-    cursor: pointer;
-    transition: 0.2s ease-in-out;
+.footer_support p {
+  font-size: 12px;
+  letter-spacing: 1px;
+  padding: 5px 0;
+  color: rgb(175, 173, 173);
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
 }
-.footer_support p:hover{
-    text-decoration: underline;
-    color: rgb(203, 203, 203);
+.footer_support p:hover {
+  text-decoration: underline;
+  color: rgb(203, 203, 203);
 }
-.footer_contact h2{
-    font-size: 1.1rem;
+.footer_contact h2 {
+  font-size: 1.1rem;
 }
-.footer_contact p{
-    font-size: 12px;
-    letter-spacing:1px;
-    padding: 5px 0;
-    color: rgb(175, 173, 173);
-    cursor: pointer;
-    transition: 0.2s ease-in-out;
+.footer_contact p {
+  font-size: 12px;
+  letter-spacing: 1px;
+  padding: 5px 0;
+  color: rgb(175, 173, 173);
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
 }
-.footer_contact p:hover{
-    text-decoration: underline;
-    color: rgb(203, 203, 203);
+.footer_contact p:hover {
+  text-decoration: underline;
+  color: rgb(203, 203, 203);
 }
 
 .footer_socialIcon {
@@ -45,7 +45,7 @@
 }
 .footer_socialIcon h2 {
   font-size: 1.1rem;
-  }
+}
 .social_icon_section {
   width: 100%;
 }
@@ -61,35 +61,77 @@
 .socialIcon_insta .insta_icon h2:hover {
   color: red;
 }
-.socialIcon .twitter_icon h2{
-    cursor: pointer;
-    transition: 0.3s ease-in-out;
+.socialIcon .twitter_icon h2 {
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
 }
-.socialIcon .twitter_icon h2:hover{
-    color: rgb(20, 186, 251);
+.socialIcon .twitter_icon h2:hover {
+  color: rgb(20, 186, 251);
 }
-.socialIcon .facebook_icon h2{
-    cursor: pointer;
-    transition: 0.3s ease-in-out;
+.socialIcon .facebook_icon h2 {
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
 }
-.socialIcon .facebook_icon h2:hover{
-    color: rgba(0, 0, 255, 0.888);
+.socialIcon .facebook_icon h2:hover {
+  color: rgba(0, 0, 255, 0.888);
 }
-.socialIcon .linkedIn_icon h2{
-    cursor: pointer;
-    transition: 0.3s ease-in-out;
+.socialIcon .linkedIn_icon h2 {
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
 }
-.socialIcon .linkedIn_icon h2:hover{
-    color: rgba(0, 0, 255, 0.888);
+.socialIcon .linkedIn_icon h2:hover {
+  color: rgba(0, 0, 255, 0.888);
 }
-.socialIcon .telegram_icon h2{
-    cursor: pointer;
-    transition: 0.3s ease-in-out;
+.socialIcon .telegram_icon h2 {
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
 }
-.socialIcon .telegram_icon h2:hover{
-    color: rgb(20, 186, 251);
+.socialIcon .telegram_icon h2:hover {
+  color: rgb(20, 186, 251);
 }
-
-
 
 /* Footer Media Query */
+
+@media (max-width: 920px) {
+  .footer_container {
+    flex-wrap: wrap;
+    gap: 10px;
+    height: auto;
+  }
+  .footer_logo {
+    width: 100%;
+    margin-left: 15px;
+  }
+}
+@media (max-width: 700px) {
+  .footer_support {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 46%;
+  }
+  .footer_contact{
+    width: 80%;
+  }
+  .footer_socialIcon{
+    width: 80%;
+  }
+  .footer_socialIcon h2{
+    width: 100%;
+  }
+  .social_icon_section {
+    display: flex;
+    gap: 15px;
+    flex-direction: row;
+  }
+  .footer_socialIcon .socialIcon {
+    gap: 15px;
+  }
+}
+@media (max-width: 350px) {
+   .footer_container{
+    align-items: start;
+    padding: 1rem;
+   }
+}

@@ -1,6 +1,6 @@
 import "./Navigation.css"
 import { userimg } from "../../../assets"
-const Navigation = (profiledata) => {
+const Navigation = ({profiledata}) => {
   return (
     <div className="userNav">
       <div className="profileImg">

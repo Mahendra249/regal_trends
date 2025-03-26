@@ -37,7 +37,7 @@ const GridSlide = () => {
           <div className="grand-child gc3">
             <img
               src={
-                "https://images.pexels.com/photos/16390571/pexels-photo-16390571/free-photo-of-close-up-of-jeans.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+                "https://images.unsplash.com/photo-1582719188393-bb71ca45dbb9?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2xvdGhpbmclMjBzdG9yZXxlbnwwfHwwfHx8MA%3D%3D"
               }
               alt=""
             />

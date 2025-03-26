@@ -17,7 +17,6 @@
 }
 .navbar-icons {
   display: flex;
-  width: 14%;
   gap: 2.5rem;
   transition: 0.3s ease-in-out;
 }
@@ -78,4 +77,51 @@
   z-index: 1000;
   background-color: #fff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width:768px) {
+  .navigation-items{
+    display: none;
+  }
+  .search-items{
+    width: 100%;
+  }
+}
+
+@media (max-width:530px) {
+  .navbar-logo h1{
+    font-size: 30px;
+    margin: 0;
+    margin-top: 3px;
+  }
+  .navbar-icons{
+    gap: 15px;
+  }
+
+  .navbar-logo h1{
+    font-size: 22px;
+  }
+  .navbar-container{
+    padding: 0;
+    padding-top: 5px;
+   
+  }
+  .navbar-navigation{
+    padding: 5px 10px;
+  }
+  .navbar-search-items-navigation{
+    padding: 6px 10px;
+  }
+  .navbar-icons{
+    gap: 10px;
+  }
+  .navbar-icons a p svg {
+    font-size: 20px;
+  }
+  .navbar-icons  p svg {
+    font-size: 20px;
+  }
+  .Homecontainer{
+    padding-top: 100px;
+  }
 }

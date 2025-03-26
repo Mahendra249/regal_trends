@@ -17,7 +17,7 @@ const FilterSection = () => {
         <p className="total-item">20,093 Items Found</p>
         <div className="CardPart">
           {products.map((product, index) => (
-            <Link key={index} to={`/productItemPage`} style={{ textDecoration: "none", color: "black" }}>
+            <Link key={index} to={`/productItemPage`} className="allcard-data" >
               <DisplayCard product={product} />
             </Link>
           ))}

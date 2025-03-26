@@ -22,7 +22,7 @@ const Home = ({ navigation }) => {
             <GridSlide />
             <Slider img_={ph} />
             <FilterSection />
-            <Slider img_={Cloth2} />
+          
           </>
         )}
       </div>

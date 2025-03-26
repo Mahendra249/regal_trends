@@ -5,6 +5,7 @@ const User = require("../models/userModel");
 // const crypto = require("crypto");
 const catchAsyncErros = require("../middlewares/catchAsyncErrors");
 
+
 // Register User
 exports.registerUser = catchAsyncErros(async (req, res, next) => {
   const { email, name, password } = req.body;

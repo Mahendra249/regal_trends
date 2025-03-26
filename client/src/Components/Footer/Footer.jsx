@@ -15,10 +15,10 @@ const Footer = () => {
         </div>
         <div className="footer_support">
           <h2>Supports</h2>
-          <p>About</p>
           <p>Term & Conditions</p>
           <p>Privacy Policy</p>
           <p>Our Stores</p>
+          <p>About</p>
         </div>
         <div className="footer_support">
           <h2>Shop By</h2>

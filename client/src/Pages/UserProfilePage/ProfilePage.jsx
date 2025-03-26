@@ -8,6 +8,7 @@ import MyWishlist from '../../Components/UserProfile/MyWishlist/MyWishlist'
 const ProfilePage = () => {
 
   const [profile, setProfile]= useState("Myprofile");
+  
   const profileData=(e)=>{
     setProfile(e);
     console.log(profile);
@@ -19,7 +20,7 @@ const ProfilePage = () => {
       profile ==="Myprofile" ? <MyInfo/>:(profile==="Myorder" ? <MyOrder/>: <MyWishlist/>)
      }
     
-  
+    {/* <MyWishlist/> */}
     </div>
   )
 }
